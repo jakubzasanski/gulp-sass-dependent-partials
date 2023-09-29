@@ -24,6 +24,7 @@
     "index.js",
     "sass-graph.js"
   ],
+  "main": "index.js",
   "keywords": [
     "sass",
     "import",
