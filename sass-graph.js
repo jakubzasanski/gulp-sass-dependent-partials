@@ -22,7 +22,7 @@ export default class Graph {
         this.options = this.processOptions(options)
         this.index = {}
 
-        if (!(this.options.exclude instanceof RegExp)) {
+        if (this.options.exclude !== null && !(this.options.exclude instanceof RegExp)) {
             throw new Error('Options exclude in not a instance of RegExp.')
         }
 
