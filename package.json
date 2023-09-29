@@ -1,0 +1,45 @@
+{
+  "name": "gulp-sass-dependent-partials",
+  "version": "1.0.0",
+  "description": "It proces scss partials files and add the files that import them to the pipe.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubzasanski/gulp-size-difference"
+  },
+  "author": {
+    "name": "Jakub Zasański",
+    "email": "jakub.zasanski.dev@gmail.com"
+  },
+  "contributors": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "format": "prettier --write \"./**/*.js\"",
+    "lint": "npx eslint \"./**/*.js\""
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "sass",
+    "import",
+    "use",
+    "forward",
+    "imported",
+    "cache"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fancy-log": "^2.0.0",
+    "glob": "^7.0.0",
+    "scss-tokenizer": "^0.4.3",
+    "vinyl-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3"
+  }
+}
