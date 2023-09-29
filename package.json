@@ -1,6 +1,6 @@
 {
   "name": "gulp-sass-dependent-partials",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "It proces scss partials files and add the files that import them to the pipe.",
   "license": "MIT",
   "type": "module",
@@ -21,7 +21,8 @@
     "lint": "npx eslint \"./**/*.js\""
   },
   "files": [
-    "index.js"
+    "index.js",
+    "sass-graph.js"
   ],
   "keywords": [
     "sass",
